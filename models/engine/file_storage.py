@@ -17,8 +17,10 @@ class_dict = {
     "User": models.user.User
 }
 
+
 class FileStorage:
-    """Serializes instances to a JSON file and deserializes back to instances"""
+    """Serializes instances to a JSON file
+    and deserializes back to instances"""
 
     # Path to the JSON file
     __file_location = "file.json"
